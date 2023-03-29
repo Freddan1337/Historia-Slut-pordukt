@@ -1,0 +1,55 @@
+
+
+
+*,
+*::before,
+*::after {                                            
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: whitesmoke;
+}
+.message-box{
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+    margin-inline: auto;
+    margin-bottom: 10%;
+    margin-top: 7%;
+    padding: 0.125rem;
+
+}
+.btn-send {
+max-width: 50%;
+margin-inline:auto;
+margin-top: 2.9%;
+}
+ 
+.post {
+max-width: 70%;
+
+
+}
+
+.namnruta {
+max-width: 70%;
+
+}
+
+textarea{
+    resize: none;
+}
+
+input, button, textarea {
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    .message-box {
+        width: 95%;
+        
+    }
+}

@@ -1,0 +1,47 @@
+body{
+
+background-color: #444544;
+}
+
+
+.meny {
+    background-color: rgb(158, 151, 151);
+    overflow: hidden;
+  }
+
+
+  .meny a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+  .meny a:hover {
+    background-color: #335eeb;
+    color: rgb(0, 0, 0);
+  }
+
+
+  
+  .active {
+    background-color: #074c11;
+    color: white;
+  }
+
+
+  .logga {
+    width: 225px;
+
+
+  }
+  
+  .meny a.active {
+    background-color: #ffff;
+    color: rgb(0,0,0)
+
+
+}

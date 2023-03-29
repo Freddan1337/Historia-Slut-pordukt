@@ -1,0 +1,15 @@
+.sussybara{
+  width: 200px;
+
+}
+
+.matboden{
+  width: 200px;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
